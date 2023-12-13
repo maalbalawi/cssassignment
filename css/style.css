@@ -1,23 +1,84 @@
 
 :root{
-
-	font-size: 1.0em;
+	font-size: 1.2em;
 }
 
 body {
 	position: relative;
 	box-sizing: border;
-	background-color:#efc;
-	font-family: Tajawal Arial;
+	background-color:rgba(239, 241, 242, 0.959);
 	margin: 0 20%;
-
 }
 
 
 h1 {
 	font-family: 'Times New Roman', Times, serif;
-	font-style: oblique;
+	padding-bottom: 5px;
 	font-weight: 400;
-	padding-bottom: 10px;
-	border-bottom: 1px solid pink;;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgb(101, 101, 101);;
+	max-width: 50%;
+}
+
+/* Navigation */
+nav {
+	background-color: #ffc;
+	display: block;
+}
+
+nav ul {
+	padding-left: 0;
+	box-sizing: border-box;
+	list-style: none;
+	flex-direction: row;	
+	display: flex;
+	width: 100%;
+	justify-content: start;
+}
+nav ul li {
+	padding: 8px;
+	display: block;
+	
+	
+	color: white;
+}
+
+nav ul li:hover {
+	
+	background-color: burlywood;
+	transition-duration: 1s;
+	transition-property: background-color;
+	transition-delay: 0.2s;
+	color: white;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	text-align: center;;
+}
+ul li a:hover {
+	
+}
+
+ul li  a:foc {
+	color: aquamarine;
+	border: #fff 1px groove;
+	
+}
+
+
+
+/* skip to main content */
+a.skip-to-main {
+	position: relative;
+	top: -200px;
+	left: -1000px;
+}
+a.skip-to-main:focus {
+	background-color: rgb(255, 255, 41);
+	color: black;
+	font-weight: 400;
+	position: fixed;
+	top: 20px;
+	left: 10px;
 }

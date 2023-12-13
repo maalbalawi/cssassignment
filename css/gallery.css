@@ -1,0 +1,36 @@
+#gallery img {				
+	max-width: 100%;
+	border-radius: 10px;
+	box-sizing: border-box;	
+}
+
+#gallery {
+	width: 100%;
+	display: grid;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	grid-template-columns: 25% 25% 25% 25% ;
+	grid-template-rows: 50% 50%;
+	gap: 4px;			
+}
+
+#gallery img:nth-child(odd){
+		opacity: 0.8;
+		transition-duration: 4s;
+		transition-timing-function: linear;
+		transition-property: "border,width";
+		border-style: ridge;
+		border-width: 3px;
+}
+#gallery img:active {
+		
+	
+	font-size: 4em;			
+}
+
+
+#gallery img:hover {
+	opacity: .8;			
+	transform:skew();
+}

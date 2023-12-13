@@ -1,67 +1,46 @@
 <!doctype html>
-<html lang="ar" >
-	
+<html lang="en" >	
 	<head>
 		<meta charset="utf-8" />
-		<title> مرحبا بالعالم </title>
+		<title> Homepage</title>
 		<meta name="viewport" content="initial-scale=1; width=device-width" />  	
-		<link rel="stylesheet" href="css/style.css" />
-		
+		<link rel="stylesheet" href="css/style.css" />		
 		<style>
 			h1.intro::first-letter {
-				color:pink;
-				font-size: 4em;			
-			}
-			
-			main {
-				background: url('dkkdk');
-				
-				
-				
+				color:purple;
+				font-size: 3em;			
+			}		
+			header  {
+				min-height: 100px;
+				background-image: url('./img/landscape5.jpg');
+				background-position: center;				
+				background-size: contain;
 			}
 
-			nav {
-				background-color: #ffc;
-			}
-				
-
-				
-			
-			nav ul {
-				list-style: none;
-				flex-direction: row;
-				
-				display: flex;
-				width: 100%;
-				justify-content: space-between;
-			}
-			nav ul li {
-				padding: 4px;
-					display: block;
-				background-color: inherit;
-				color: white;
-			}
-			ul li  a:hover {
-				border: solid 3px groove;
-				color:pink;
+			header >  h1 {
+				opacity:  1!important;
 			}
 		</style>
 	</head>	
 	<body>	
+		<a href="#main" class="skip-to-main" tabindex="1">Skip to main content</a>
 		<nav>
 			<ul>
-				<Li><a href="./about.html" > About </a>  </Li>
-				<li><a href="./Contact.html"> Contact </a></li>
-				<li><a href="./Gallery.html"> Gallery </a></li>
-				<li><a href="#"  >Blog</a></li>
+				<Li><a href="./index.html" > Homepage </a>  </Li>
+				<li><a href="./Pictures.html"> Pictures </a></li>
+				<li><a href="./about.html"> About </a></li>
 			</ul>
 		</nav>
+
+		<header>
+
+			<h1 class="intro"> Welcome to my Website </h1>
+
+		</header>
 		
 		<main id="main">
-		
-			<h1 class="intro"> Welcome to my website </p>
-		
-				<p>HI, i created this website as assigment for Introduction to CSS Michigan University course.</p>
+
+			<p>Hi, I created this website </p>
 		</main>
 </body>
 </html>
