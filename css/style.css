@@ -1,0 +1,23 @@
+
+:root{
+
+	font-size: 1.0em;
+}
+
+body {
+	position: relative;
+	box-sizing: border;
+	background-color:#efc;
+	font-family: Tajawal Arial;
+	margin: 0 20%;
+
+}
+
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-style: oblique;
+	font-weight: 400;
+	padding-bottom: 10px;
+	border-bottom: 1px solid pink;;
+}
