@@ -6,8 +6,8 @@
 body {
 	position: relative;
 	box-sizing: border;
-	background-color:rgba(239, 241, 242, 0.959);
-	margin: 0 20%;
+	background-color:rgba(239, 241, 242, 0.966);
+	margin: 0 15%;
 }
 
 
@@ -36,10 +36,8 @@ nav ul {
 	justify-content: start;
 }
 nav ul li {
-	padding: 8px;
+	padding: 8px 15px;
 	display: block;
-	
-	
 	color: white;
 }
 
